@@ -31,6 +31,10 @@ h1 {
   align-items: center;
 }
 
+.LandingImage {
+  width: 100%;
+}
+
 .NavigationBar {
   width: 90%;
   height: 5%;
