@@ -21,7 +21,7 @@ code {
 }
 
 h1 {
-  color: #1f8006;
+  color: #fffee0;
 }
 
 .App {
@@ -35,13 +35,34 @@ h1 {
   width: 100%;
 }
 
-.NavigationBar {
-  width: 90%;
-  height: 5%;
-  background-color: #1f8006;
-  opacity: 0.7;
+.FishingImage {
+  width: 50%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.MyHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  background-color: #1a6c05;
+  opacity: 0.9;
   border-style: solid;
   border-radius: 10px;
   border-width: 1px;
   border-color: #1f8006;
+}
+
+.ContentSectContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+}
+
+.ContentSectText {
+  width: 40%;
 }
