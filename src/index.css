@@ -53,6 +53,16 @@ h1 {
   border-radius: 10px;
   border-width: 1px;
   border-color: #1f8006;
+  z-index: 9999;
+  transition: all 250ms ease-in-out;
+}
+
+.scroll-down .MyHeader {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .MyHeader {
+  filter: drop-shadow(0 -10px 20px rgb(50, 50, 50));
 }
 
 .ContentSectContainer {
