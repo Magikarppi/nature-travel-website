@@ -2,7 +2,7 @@ import { Component } from 'react';
 import './App.css';
 import Fishing from './components/contentSections/Fishing';
 import MyHeader from './components/MyHeader';
-import syksyHiking from './images/syksyHikingCrop.jpg';
+import syksyHiking from './images/syksyHiking.jpg';
 
 interface State {
   lastScroll: number;
