@@ -11,6 +11,12 @@ body,
     url(./fonts/Philosopher-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Nautigal';
+  src: local('TheNautigal-Regular'),
+    url('./fonts/TheNautigal-Regular.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -30,6 +36,12 @@ h1 {
   color: #fffee0;
   font-family: 'Philosopher';
   /* font-size: 40px; */
+}
+
+h2 {
+  color: #1a6c05;
+  font-family: 'Nautigal';
+  font-size: 40px;
 }
 
 .App {
