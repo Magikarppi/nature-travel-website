@@ -52,11 +52,12 @@ h2 {
 }
 
 .LandingImage {
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
+  border-radius: 10px;
 }
 
-.FishingImage {
+.ContentImage {
   width: 50%;
   height: 500px;
   border-radius: 10px;
@@ -122,10 +123,14 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 700px;
+  /* height: 1000px; */
   width: 100%;
 }
 
 .ContentSectText {
-  width: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

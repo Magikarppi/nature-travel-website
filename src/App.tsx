@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './App.css';
 import Fishing from './components/contentSections/Fishing';
+import Hiking from './components/contentSections/Hiking';
 import MyHeader from './components/MyHeader';
 import syksyHiking from './images/syksyHiking.jpg';
 
@@ -61,6 +62,7 @@ class App extends Component<any, State> {
           />
         </div>
         <Fishing />
+        <Hiking />
       </div>
     );
   }

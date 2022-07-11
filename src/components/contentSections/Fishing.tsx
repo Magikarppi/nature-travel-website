@@ -15,7 +15,7 @@ export default class Fishing extends Component {
             pellentesque id diam a ornare. Nulla facilisi.
           </p>
         </div>
-        <img src={kalastus} alt="mies kalastamassa" className="FishingImage" />
+        <img src={kalastus} alt="mies kalastamassa" className="ContentImage" />
       </div>
     );
   }
