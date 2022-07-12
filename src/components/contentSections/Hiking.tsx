@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import vaellusImg from '../../images/hikingSummer1.jpg';
 
 export default class Hiking extends Component {
@@ -19,6 +20,7 @@ export default class Hiking extends Component {
             magna vitae libero dapibus ullamcorper a non mi. Integer
             pellentesque id diam a ornare. Nulla facilisi.
           </p>
+          <Link to="/varaa">Lue lisää ja varaa</Link>
         </div>
       </div>
     );

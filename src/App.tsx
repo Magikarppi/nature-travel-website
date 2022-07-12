@@ -1,10 +1,12 @@
 import { Component } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Book from './components/Book';
 import Fishing from './components/contentSections/Fishing';
 import Hiking from './components/contentSections/Hiking';
 import Footer from './components/Footer';
+import Home from './components/Home';
 import MyHeader from './components/MyHeader';
-import syksyHiking from './images/syksyHiking.jpg';
 
 interface State {
   lastScroll: number;
@@ -53,19 +55,17 @@ class App extends Component<any, State> {
   render() {
     window.addEventListener('scroll', this.trackScroll);
     return (
-      <div className="App">
-        <MyHeader />
-        <div>
-          <img
-            src={syksyHiking}
-            alt="syksyinen vaellus"
-            className="LandingImage"
-          />
+      <BrowserRouter>
+        <div className="App">
+          <MyHeader />
+
+          <Routes>
+            <Route path="/varaa" element={<Book />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+          <Footer />
         </div>
-        <Fishing />
-        <Hiking />
-        <Footer />
-      </div>
+      </BrowserRouter>
     );
   }
 }

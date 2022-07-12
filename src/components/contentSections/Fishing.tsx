@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import kalastus from '../../images/kalastus1.jpg';
 
 export default class Fishing extends Component {
@@ -14,6 +15,7 @@ export default class Fishing extends Component {
             magna vitae libero dapibus ullamcorper a non mi. Integer
             pellentesque id diam a ornare. Nulla facilisi.
           </p>
+          <Link to="/varaa">Lue lisää ja varaa</Link>
         </div>
         <img src={kalastus} alt="mies kalastamassa" className="ContentImage" />
       </div>
