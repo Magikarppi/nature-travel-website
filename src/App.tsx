@@ -2,6 +2,7 @@ import { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Book from './components/Book';
+import Company from './components/Company';
 import Fishing from './components/contentSections/Fishing';
 import Hiking from './components/contentSections/Hiking';
 import Footer from './components/Footer';
@@ -61,6 +62,7 @@ class App extends Component<any, State> {
 
           <Routes>
             <Route path="/varaa" element={<Book />} />
+            <Route path="/yritys" element={<Company />} />
             <Route path="/" element={<Home />} />
           </Routes>
           <Footer />
